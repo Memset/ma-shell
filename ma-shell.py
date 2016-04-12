@@ -2,7 +2,7 @@
 """
 Memset API interactive shell
 
-Copyright (C) 2012 Memset Ltd; http://www.memset.com/
+Copyright (C) 2016 Memset Ltd; http://www.memset.com/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -24,7 +24,7 @@ SOFTWARE.
 """
 
 API_URL = r"https://%s:@api.memset.com/v1/xmlrpc"
-VERSION = '0.2'
+VERSION = '0.3'
 
 # pylint: disable-msg=E0202
 

@@ -8,7 +8,7 @@ def readme():
         return ""
 
 setup(name='ma-shell',
-      version='0.2',
+      version='0.3',
       description='The Memset API interactive shell',
       long_description=readme(),
       author='Juan J. Martinez',

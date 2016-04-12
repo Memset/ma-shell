@@ -1,3 +1,8 @@
+2016-04-12 Joshua Phillips <joshua.phillips@memset.com>
+
+  * release: 0.3
+  * support quoted string arguments
+
 2012-04-27 Juan Martinez <juan@memset.com>
 
   * first public release: 0.2
