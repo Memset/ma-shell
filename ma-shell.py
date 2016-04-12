@@ -31,6 +31,8 @@ VERSION = '0.2'
 from optparse import OptionParser
 from xmlrpclib import ServerProxy, Fault, DateTime, ProtocolError
 import socket
+import shlex
+
 try:
     import json
 except:
@@ -224,7 +226,7 @@ class Main(object):
             if not cmd:
                 continue
             else:
-                cmd = cmd.strip().split(' ')
+                cmd = shlex.split(cmd)
 
             if not self.execute(cmd):
                 break
